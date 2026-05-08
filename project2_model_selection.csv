@@ -1,0 +1,7 @@
+Run,Method,Criteria,Variables_Selected,N_Vars,AIC,SC,Neg2LogL,c_statistic,LR_ChiSq,LR_df,LR_pvalue,Notes
+1,Forward,p=0.05,"tuition2 fee2 avg_faculty_salary cohort_total",4,769.194,793.875,759.194,0.914,664.144,4,<.0001,All three p=0.05 methods converge on same model
+2,Backward,p=0.05,"tuition2 fee2 avg_faculty_salary cohort_total",4,769.194,793.875,759.194,0.914,664.144,4,<.0001,Dropped hloffer_collapse/control/cbsatype/room/locale_collapse/c21enprf_collapse/board_collapse/region
+3,Stepwise,p=0.05,"tuition2 fee2 avg_faculty_salary cohort_total",4,769.194,793.875,759.194,0.914,664.144,4,<.0001,No variables removed after entry
+4,Forward,p=0.10,"tuition2 fee2 avg_faculty_salary cohort_total region board_collapse",6,766.174,810.601,748.174,0.916,675.164,7,<.0001,region p=0.070 and board_collapse p=0.089 borderline
+5,Backward,p=0.10,"tuition2 fee2 avg_faculty_salary cohort_total region board_collapse",6,766.174,810.601,748.174,0.916,675.164,7,<.0001,Stopped after removing hloffer_collapse/control/cbsatype/room/locale_collapse/c21enprf_collapse
+6,Stepwise,p=0.10,"tuition2 fee2 avg_faculty_salary cohort_total region board_collapse",6,766.174,810.601,748.174,0.916,675.164,7,<.0001,No variables removed after entry
